@@ -71,7 +71,7 @@ Please make sure to configure the `.env` file with the appropriate values based 
 
 ### Database
     - Make database based on db configuration on env
-    - run ```php artisan migrate``` to create the tables```
+    - run ```php artisan migrate``` to create the tables
 
 ### Auth Endpoints
 
