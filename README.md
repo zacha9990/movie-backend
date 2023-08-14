@@ -69,6 +69,9 @@ VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 
 Please make sure to configure the `.env` file with the appropriate values based on your environment and requirements.
 
+### Database
+    - Make database based on db configuration on env
+    - run ```php artisan migrate``` to create the tables```
 
 ### Auth Endpoints
 
@@ -175,8 +178,6 @@ Adds a new movie.
 #### Request
 
 ```json
-POST /movies
-
 {
   "title": "New Movie",
   "description": "A new movie description.",
@@ -220,8 +221,9 @@ Updates details of a specific movie.
 
 #### Request
 
-```json
 PUT /movies/1
+
+```json
 
 {
   "title": "Updated Movie Title",
