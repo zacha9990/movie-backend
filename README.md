@@ -1,3 +1,7 @@
+## What is this?
+
+This is a simple API service for the CRUD operation (with auth) of a movie database.
+
 ## API Documentation
 
 This document provides documentation for the API endpoints available in the application.
